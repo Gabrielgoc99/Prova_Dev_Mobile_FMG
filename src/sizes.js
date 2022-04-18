@@ -1,7 +1,5 @@
-  export const sizes = {  
-  
-    width: 200,  
-    alignSelf: 'center',
-    padding: 10,
-  
+export const sizes = {    
+    small: 10,
+    medium: 15,
+    large: 20,  
 };

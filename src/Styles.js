@@ -1,4 +1,6 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native';
+import { colors } from './colors';
+import { sizes } from './sizes';
 
 
 export default StyleSheet.create({
@@ -6,7 +8,7 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 12, 
+    padding: sizes.small, 
     width: '100%', 
     margin: 0,  
   },
@@ -15,9 +17,9 @@ export default StyleSheet.create({
     padding: 12,
   },
   paragraph: {
-    margin: 10,
+    margin: sizes.small,
     marginBottom: 0,
-    fontSize: 16,
+    fontSize: sizes.medium,
     fontWeight: 'bold',
     textAlign: 'center',
     borderColor: 'red',
@@ -26,11 +28,11 @@ export default StyleSheet.create({
     height: 240,
     width: 120,
     alignSelf: 'center',
-    borderColor: 'black'
-  },
+      },
   botao: {
     width: 200,  
     alignSelf: 'center',
-    padding: 10,
+    padding: sizes.small,
+    
    }
 });

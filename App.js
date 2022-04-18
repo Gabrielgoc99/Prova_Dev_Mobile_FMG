@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { View } from 'react-native';
-import { Balao } from './src/components/Balao';
+import { BalaoDaSorte } from './src/components/BalaoDaSorte';
 import styles from './src/Styles';
 
 
@@ -9,7 +9,7 @@ export default function App(props) {
   return (
     <View style={styles.container}>
 
-      <Balao/> 
+      <BalaoDaSorte/> 
             
     </View>
   );
